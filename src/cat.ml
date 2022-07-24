@@ -28,7 +28,9 @@ let cat_file file =
   with
     Sys_error (err_msg) -> (Printf.printf "%s: %s" program_name err_msg;exit_code:=1)
 
-let () =
+let main () =
   Arg.parse speclist anon_fun usage_msg;
   List.iter (cat_file) (List.rev !input_files);
   exit (!exit_code)
+
+let _ = main ()

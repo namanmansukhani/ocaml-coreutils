@@ -11,8 +11,10 @@ let echo_arg arg =
   with
     Sys_error (err_msg) -> (Printf.printf "%s: %s\n" program_name err_msg;exit_code:=1)
 
-let () =
+let main () =
   Arg.parse speclist anon_fun usage_msg;
   List.iter (echo_arg) (List.rev !args);
   Printf.printf "\n";
   exit (!exit_code)
+
+let _ = main ()
