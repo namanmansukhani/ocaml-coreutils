@@ -1,0 +1,9 @@
+(executables
+ (names cat
+  echo
+  false
+  pwd
+  sleep
+  true
+  yes)
+ (libraries threads ocaml_coreutils))

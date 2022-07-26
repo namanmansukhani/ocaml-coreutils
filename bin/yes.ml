@@ -1,5 +1,4 @@
 let program_name = "yes"
-(* Still need to implement flags for physical and logical addresses *)
 let usage_msg = "usage: yes [args ...]"
 let args = ref []
 let anon_fun arg = args := arg :: !args
@@ -7,7 +6,7 @@ let speclist = []
 let exit_code = ref 0
 
 let yes args = 
-  let word = (match args with | [] -> "y" | (x::xs) -> x) in
+  let word = (match args with | [] -> "y" | (x::_) -> x) in
     while true do 
       try
         Printf.printf "%s\n" word
