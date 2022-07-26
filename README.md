@@ -1,12 +1,14 @@
 # ocaml-coreutils
 
-A rewrite of the GNU coreutils in OCaml for fun and learning.
+A rewrite of the [GNU coreutils](https://www.gnu.org/software/coreutils/) in OCaml for fun and learning.
 
 ## Installation
 
 Run the install script `build.sh` to install the executables into a new directory `bin`.
 
 ```bash
+git clone https://github.com/namanmansukhani/ocaml-coreutils
+cd ocaml-coreutils
 ./build.sh
 ```
 
