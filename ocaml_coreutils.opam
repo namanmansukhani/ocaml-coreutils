@@ -4,7 +4,7 @@ synopsis: "An OCaml rewrite of GNU coreutils"
 description: "GNU coreutils rewritten in OCaml for fun and learning!"
 authors: ["Naman Mansukhani" "Sarthak Mangla"]
 license: "LICENSE"
-tags: ["topics" "to describe" "your" "project"]
+tags: ["gnu" "coreutils"]
 homepage: "https://github.com/namanmansukhani/ocaml-coreutils"
 bug-reports: "https://github.com/namanmansukhani/ocaml-coreutils/issues"
 depends: [

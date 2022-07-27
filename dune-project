@@ -22,6 +22,6 @@
  (description "GNU coreutils rewritten in OCaml for fun and learning!")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  ("gnu" "coreutils")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
