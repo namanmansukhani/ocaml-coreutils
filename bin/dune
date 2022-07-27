@@ -2,6 +2,7 @@
  (names cat
   echo
   false
+  head
   pwd
   sleep
   true
