@@ -6,4 +6,6 @@
   sleep
   true
   yes)
- (libraries threads ocaml_coreutils))
+ (libraries threads lib))
+
+; (copy_files *.exe )

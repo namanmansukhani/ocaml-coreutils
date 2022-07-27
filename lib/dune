@@ -1,2 +1,2 @@
 (library
- (name ocaml_coreutils))
+ (name lib))
