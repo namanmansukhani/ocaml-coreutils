@@ -6,7 +6,8 @@
   pwd
   sleep
   true
+  whoami
   yes)
- (libraries threads lib))
+ (libraries core threads lib))
 
 ; (copy_files *.exe )
